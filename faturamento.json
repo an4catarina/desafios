@@ -1,0 +1,14 @@
+{
+  "faturamento": [
+    { "dia": 1, "valor": 0 },
+    { "dia": 2, "valor": 252.5 },
+    { "dia": 3, "valor": 32.9 },
+    { "dia": 4, "valor": 0 },
+    { "dia": 5, "valor": 550.2 },
+    { "dia": 6, "valor": 4120.8 },
+    { "dia": 7, "valor": 0 },
+    { "dia": 8, "valor": 893.0 },
+    { "dia": 9, "valor": 220.0 },
+    { "dia": 10, "valor": 146.0 }
+  ]
+}
