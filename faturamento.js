@@ -9,7 +9,7 @@ fs.readFile('faturamento.json', 'utf-8', (err, data) => {
   const faturamentoData = JSON.parse(data);
 
   function analisarFaturamento(json) {
-    const validData = json.faturamento.filter(entry => entry.valor > 0);
+    const validData = json.filter(entry => entry.valor > 0);
     const valores = validData.map(entry => entry.valor);
     
     const total = valores.reduce((acc, cur) => acc + cur, 0);
